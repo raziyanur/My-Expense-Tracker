@@ -3,12 +3,12 @@ import React from "react";
 const Buttons = () => {
   const handleAddExpense = () => {
     console.log("Navigate to Add Expense Page");
-    // 后续用 React Router 实现页面跳转
-  };
+    
+  }
 
   const handleAddIncome = () => {
     console.log("Navigate to Add Income Page");
-    // 后续用 React Router 实现页面跳转
+    
   };
 
   return (

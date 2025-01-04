@@ -9,12 +9,12 @@ function App() {
   const [expenses, setExpenses] = useState([]);
   const [income, setIncome] = useState([]);
 
-  // 添加支出
+  
   const addExpense = (expense) => {
     setExpenses([...expenses, expense]);
   };
 
-  // 添加收入
+  
   const addIncome = (incomeItem) => {
     setIncome([...income, incomeItem]);
   };

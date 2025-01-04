@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const IncomeForm = () => {
+const IncomeForm = ({onSubmit}) => {
   const [formData, setFormData] = useState({
     date: "",
     amount: "",
@@ -15,8 +15,9 @@ const IncomeForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    onSubmit(formData);
     console.log("Income Submitted:", formData);
-    // 后续将数据提交到 Redux store
+    
   };
 
   return (

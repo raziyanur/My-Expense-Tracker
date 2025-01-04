@@ -15,7 +15,7 @@ const ExpenseForm = ({ onSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onSubmit(formData); // 调用传递来的 onSubmit 函数
+    onSubmit(formData); 
   };
 
   return (
